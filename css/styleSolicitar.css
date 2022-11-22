@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+body{
+    font-family: 'Kalam', cursive;
+    background-image: url(../img/fondoo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: #fff;
+}
+.container{
+    padding: 30px;
+    height: auto;
+    width: auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+}
+.buslibro{
+    color: #fff;
+    padding: 10px;
+    padding-right: 15px;
+    margin-left: 100px;
+    font-size: 18px;
+}
+
+.box{
+    color: #fff;
+    padding: 10px;
+    padding-right: 15px;
+    font-size: 18px;
+    position: absolute;
+}
+
+.box  input{
+    color: #fff;
+    padding: 10px;
+    padding-right: 15px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+input.src{
+    padding: 10px 10px 9px 32px;
+    outline: none;
+    font-size: 14px;
+    border-radius: 15px;
+    color: #444;
+    border: 3px solid #fff;
+    width: 500px;
+}
+
+.letra{
+    color: #fff;
+    padding: 15px;
+    border-collapse: collapse;
+    background: #24303c67;
+    box-shadow: 7px 13px 37px #000;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.filas{
+    padding: 5px;
+    border-right: 3px solid #fff;
+    border-left: 3px solid #fff;
+    border-collapse: collapse;  
+}
+
+table.letra tbody tr:nth-child(even){
+    background-color:#00838f6e;
+}
+
+#margentop{
+    border-top: 3px solid #fff;
+}
+
+#margenaba{
+    border-bottom: 3px solid #fff;
+}
+
+.container2{
+    margin-top: -20px;
+    margin-bottom: -50px;
+    height: auto;
+    width: auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    gap: 50px;   
+}
+
+.contenido{
+    margin-top: 45px;
+    margin-left: -30px;
+}
+
+.filaacciones{
+    padding: 40px;
+}
+
+#accion{
+    margin-top: 70px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.color{
+    color: #fff;
+    padding-top: 15px;
+}
+
+.autores{
+    padding: 10px;
+    border-right: 3px solid #fff;
+    border-left: 3px solid #fff;
+    border-collapse: collapse;
+    width: 150px;
+}
+
+.paginas{
+    text-align: center;
+}
+.numeropagina{
+    color: #fff;
+    padding: 10px;
+}

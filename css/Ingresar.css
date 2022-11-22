@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kalam', cursive ;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(../img/fondoo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content_login{
+    width: 400px;
+    background: #00838F;
+    padding: 30px;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 4px;
+    color: #fff;
+    box-shadow: 7px 13px 37px #000;
+}
+  
+h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 50px;
+    border: 1px solid #fff;
+    font-size: 18px;
+    color: white;
+}
+  
+p{
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  
+a{
+    color: white;
+    text-decoration: none;
+}
+  
+#botons{
+    background: #fff;
+    border: none;
+    padding: 12px;
+    color: #00838F;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-left: 108px;
+}
+
+#nombrelog{
+    margin-bottom: -200px;
+    margin-left: 50px;
+} 
+
+.cuadritto{
+    margin-bottom: -50px;
+    padding-bottom: 40px;
+    border-radius: 50px;
+}
+
+.titulo{
+    color: #fff;
+    text-align: center;
+    margin-bottom: -150px;
+    margin-top: 50px;
+}
+
+.bibli{
+    text-align: center;
+}
+
+.nom{
+    font-size: 60px;
+    text-align: center;
+}
+.caja{
+    margin-left: 50px;
+}

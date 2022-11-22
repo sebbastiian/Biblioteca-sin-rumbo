@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kalam', cursive;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(../img/fondoo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content_login{
+    width: 400px;
+    background-color: #00838F;
+    padding: 30px;
+    padding-bottom: -30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+  
+h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #fff;
+    font-size: 18px;
+    color: white;
+}
+  
+p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+  
+a{
+    color: white;
+    text-decoration: none;
+}
+  
+#botons {
+    width: 40%;
+    background: #fff;
+    border: none;
+    padding: 12px;
+    color: #00838F;
+    margin: 16px 0;
+    font-size: 16px;
+    padding-left: 133px;
+    padding-right: 133px;
+    border-radius: 10px;
+}
+
+#nombrelog{
+    width: 400px;
+    height: 200px;
+    margin-bottom: -130px;
+    margin-left: 50px;
+} 
+
+.tercon{
+    font-size: small;
+}
+.titulo{
+    color: #fff;
+    text-align: center;
+    margin-bottom: -50px;
+    margin-top: 50px;
+}
+
+.bibli{
+    text-align: center;
+}
+
+.nom{
+    font-size: 60px;
+}

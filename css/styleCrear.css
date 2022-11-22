@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+body{
+    font-family: 'Kalam', cursive;
+    background-image: url(../img/fondoo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: #fff;
+}
+.container{
+    padding: 30px;
+    height: auto;
+    width: auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+}
+
+.formulario{
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabla{
+    border-radius: 4px;
+    width: 800px;
+    height: auto;
+    background: #00838f48;
+    padding: 40px;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.control{
+    width: 90%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ffffff;
+    font-size: 18px;
+    color: #fff;
+}
+
+.letra{
+    padding-left: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+#crear{
+    color: #fff;
+    font-size: 35px;
+}
+
+#guardar{
+    width: 60%;
+    background: #ffffff;
+    border: none;
+    padding: 10px;
+    color: #00838f;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.biblio{
+    width: 200px;
+    height: 100px;
+}
+
+.libro{
+    margin-top: -50px;
+}

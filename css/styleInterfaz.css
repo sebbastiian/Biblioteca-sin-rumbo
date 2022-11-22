@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+body{
+    font-family: 'Kalam', cursive;
+    background-image: url(../img/fondoo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+header{
+    background-color: #00838F;
+    height: auto;
+    color: #fff;
+}
+.title{
+    display: grid;
+    grid-template-columns: 128px auto auto;
+}
+.logo{
+    margin:10px 30px;
+}
+.bibli{
+    margin-top: 0px;
+    margin-left: 50px;
+}
+.nom{
+    font-size: 60px;
+    margin: 20px 0px;
+}
+.subnom{
+    margin-top: -35px;
+}
+.usu{
+    text-align: right;
+    margin-right: 50px;
+}
+.logusu{
+    margin-top: -20px;
+}
+.nave a:hover{
+    color: black;
+}
+.imgn a:hover{
+    background-color: black;
+}
+.nave{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+    text-align: center;
+    padding: 40px;
+    width: 250px ;
+    background-color: #00838F;
+    border-radius: 30px;
+}
+.n{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 350px;
+    padding-bottom: 350px;
+}
+.boton{
+    width: 100px;
+    font-weight: 700;
+    font-size: x-large;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+.imgn{
+    margin-bottom: 30px;
+}
+
+.sobre{
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+footer{
+    background-color:#00838F;
+    height: auto ;
+}
+.pie{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    color: #fff;
+}
+.pimg{
+    margin-top: 20px;
+}
+.salir{
+    text-decoration: none;
+    background-color: #fff;
+    color: #00838F;
+    padding: 4px;
+    border-radius: 5px;
+}
+.salir a:hover{
+    color: white;
+    background-color: #005e66;
+}
+
